@@ -22,7 +22,7 @@ console.log(tiesa1);
 }
 
  function lyginisArNelyginis(a){
-    if (a % 2 == 0 ) {
+    if (a % 2 === 0 ) {
         return true;
    }
    else {
