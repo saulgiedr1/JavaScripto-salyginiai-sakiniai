@@ -2,7 +2,9 @@
     let skaicius;
     let skaicius1;
     skaicius=123;
-    skaicius1=-212;    
+    skaicius1=-212; 
+    let tiesa;
+    let tiesa1;   
    
 
     tiesa=arDaugiauNeguSimtas(skaicius);
