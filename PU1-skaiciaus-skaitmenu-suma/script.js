@@ -1,22 +1,21 @@
 window.onload=function(){
-    let skaicius=15746;
+    let skaicius=15746;    
     let skaicius1=95000;
-    let skaiucius2=39857;
-     
-    let zodis;
-    let zodis1;
-    let zodis2;    
-    zodis="15746";
-    zodis1="95000";
-    zodis2="39857";
+    let skaicius2=39857;
+    let zodis=skaicius.toString(); 
+    let zodis1=skaicius1.toString();
+    let zodis2=skaicius2.toString();
+        
     let suma;
     let suma1;
-    let suma2;             
+    let suma2;  
+           
 
     suma=skaiciausSkaitmenuSuma(zodis);
     suma1=skaiciausSkaitmenuSuma(zodis1);
     suma2=skaiciausSkaitmenuSuma(zodis2);
 
+    
     console.log(suma);
     console.log(suma1);
     console.log(suma2);
@@ -28,6 +27,7 @@ window.onload=function(){
 function skaiciausSkaitmenuSuma(sk){
     return skaitmenysZodziu(sk[0]) + skaitmenysZodziu(sk[1]) + skaitmenysZodziu(sk[2]) + skaitmenysZodziu(sk[3]) + skaitmenysZodziu(sk[4]);
 }
+
 
 /**
  *
